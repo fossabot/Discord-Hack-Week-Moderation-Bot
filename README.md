@@ -3,6 +3,7 @@
 Currently in developpment.
 
 Core : https://github.com/discord-net/Discord.Net
+Logo : https://pixabay.com/fr/vectors/bouclier-insigne-logo-symbole-308943/
 
 # How To Use
 
