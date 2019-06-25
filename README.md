@@ -1,5 +1,7 @@
 # Discord Hack Week Moderation Bot
 
+Currently in developpment.
+
 # How To Use
 
 1. Download the latest .NET Framework : https://www.microsoft.com/fr-fr/download/details.aspx?id=56116
