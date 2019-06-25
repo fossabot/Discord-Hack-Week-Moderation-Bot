@@ -27,4 +27,4 @@ If you plan to edit my code you better install Discord.Net with Nuget : https://
 
 -Messages Log (TimeStamp, UserId, Username, Channel, Message)
 
--Individual Mute
+-Individual Mute (Messages are logged no matter if the user is muted or not)
