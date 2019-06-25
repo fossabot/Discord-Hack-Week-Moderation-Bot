@@ -16,4 +16,4 @@ Moderation Bot [LINUX]:
 2. Edit the App.config file with your bot credentials (Token, Id, etc).
 3. Type "dotnet run" into the project root files. (Where you can found the .sln) and enjoy !
 
-PS: If you plan to edit my code you better install Discord.Net with Nuget : https://www.nuget.org/packages/Discord.Net/
+PS: If you plan to generate my code you better install Discord.Net with Nuget : https://www.nuget.org/packages/Discord.Net/
