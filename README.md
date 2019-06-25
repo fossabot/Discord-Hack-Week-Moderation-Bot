@@ -1,6 +1,7 @@
 # Discord Hack Week Moderation Bot
 
 Windows Version : Ready to use but not complete.
+
 Linux Version : Not started.
 
 Core : https://github.com/discord-net/Discord.Net
