@@ -2,6 +2,8 @@
 
 Currently in developpment.
 
+Core : https://github.com/discord-net/Discord.Net
+
 # How To Use
 
 Windows :
