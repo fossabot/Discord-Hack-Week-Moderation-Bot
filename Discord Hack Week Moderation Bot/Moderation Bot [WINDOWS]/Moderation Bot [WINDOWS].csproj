@@ -220,7 +220,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Administrators\BanCommand.cs" />
+    <Compile Include="Commands\Administrators\KickCommand.cs" />
+    <Compile Include="Commands\HelpCommand.cs" />
+    <Compile Include="Handlers\BotStateHandler.cs" />
     <Compile Include="Handlers\LogsHandler.cs" />
+    <Compile Include="Handlers\MessagesHandler.cs" />
     <Compile Include="Handlers\SettingsHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -229,6 +234,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
