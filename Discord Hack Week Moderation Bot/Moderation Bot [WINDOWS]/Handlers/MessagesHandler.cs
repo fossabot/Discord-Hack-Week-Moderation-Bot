@@ -3,6 +3,8 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
+using Moderation_Bot__WINDOWS_.Tools;
+
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
@@ -72,11 +74,18 @@ namespace Moderation_Bot__WINDOWS_.Handlers
 
                 string ActualContent = File.ReadAllText("./Logs/MsgLogs " + Date);
 
-                string NewContent = ActualContent + "\n[" + arg.Timestamp + "][UserID=" + arg.Author.Id + "][" + arg.Author + "][" + arg.Channel + "]" + arg.Content + "[]";
+                string NewContent = ActualContent + "\n[" + arg.Timestamp + "][" + arg.Author.Id + "][" + arg.Author + "][" + arg.Channel + "]" + arg.Content + "[]";
                 byte[] Encode = UnicodeEncoding.Unicode.GetBytes(NewContent);
                 NewContent = UnicodeEncoding.Unicode.GetString(Encode);
 
-                File.WriteAllText("./Logs/MsgLogs " + Date, NewContent);             
+                File.WriteAllText("./Logs/MsgLogs " + Date, NewContent);
+
+                string AccountDatas = File.ReadAllText("./Accounts/" + arg.Author.Id);
+                bool MuteState = bool.Parse(new ParserTool().Parse(AccountDatas, "<MuteState>", "</>"));
+                if (MuteState)
+                {
+                    await arg.DeleteAsync();
+                }
             }
         }
     }
