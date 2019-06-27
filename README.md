@@ -2,7 +2,7 @@
 
 Windows Version : Ready to use but not complete.
 
-Linux Version : Ready to use but not complete.
+Linux Version : Ready to use but not complete. (There is no app_LINUX File because you need all the project files to run it)
 
 Core : https://github.com/discord-net/Discord.Net
 
