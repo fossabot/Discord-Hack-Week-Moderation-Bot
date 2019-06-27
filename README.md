@@ -8,7 +8,7 @@ Core : https://github.com/discord-net/Discord.Net
 
 # How To Use
 
-If you plan to edit my code you better install Discord.Net with Nuget : https://www.nuget.org/packages/Discord.Net/
+If you plan to edit my code you have to install Discord.Net with Nuget : https://www.nuget.org/packages/Discord.Net/
 
 # Moderation Bot [WINDOWS]
 1. Download the latest .NET Framework : https://www.microsoft.com/fr-fr/download/details.aspx?id=56116
