@@ -20,6 +20,8 @@ If you plan to edit my code you have to install Discord.Net with Nuget : https:/
 2. Edit the App.config file with your bot credentials (Token, Id, etc).
 3. Type "dotnet run" into the project root files. (Where you can find the "Moderation Bot [LINUX].csproj") and enjoy !
 
+(Linux version should work on windows if launched by dotnet, i have made two version in order to simplify the use of the bot)
+
 # Features
 -Ban
 
