@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Moderation_Bot__WINDOWS_.Tools
+﻿namespace Moderation_Bot__WINDOWS_.Tools
 {
     public class ParserTool
     {
