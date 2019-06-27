@@ -2,7 +2,7 @@
 
 Windows Version : Ready to use but not complete.
 
-Linux Version : Not started.
+Linux Version : Ready to use but not complete.
 
 Core : https://github.com/discord-net/Discord.Net
 
