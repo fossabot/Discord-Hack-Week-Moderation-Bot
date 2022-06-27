@@ -1,4 +1,6 @@
 # Discord Hack Week Moderation Bot
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMrproex%2FDiscord-Hack-Week-Moderation-Bot.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMrproex%2FDiscord-Hack-Week-Moderation-Bot?ref=badge_shield)
+
 
 Windows Version : Ready to use but not complete.
 
@@ -30,3 +32,7 @@ If you plan to edit my code you have to install Discord.Net with Nuget : https:/
 -Messages Log (TimeStamp, UserId, Username, Channel, Message)
 
 -Individual Mute (Messages are logged no matter if the user is muted or not)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMrproex%2FDiscord-Hack-Week-Moderation-Bot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FMrproex%2FDiscord-Hack-Week-Moderation-Bot?ref=badge_large)
